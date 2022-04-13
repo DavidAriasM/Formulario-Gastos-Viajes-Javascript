@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <section>
+        <div class="contenedor">
+            <form id="formulario">
+                <input class="input" type="text" id="destino-viaje" autocomplete="off" placeholder="Destino de viaje"><br>
+                <input class="input" type="number" id="presupuesto" autocomplete="off" placeholder="Presupuesto inicial"><br>
+                <input class="input" type="number" id="valor1" autocomplete="off" placeholder="Comida"><br>
+                <input class="input" type="number" id="valor2" autocomplete="off" placeholder="Estadía"><br>
+                <input class="btnCalcular" type="submit" value="Calcular">
+            </form>
+            <div id="contenedor-detalles">
+                <div class="titulos-lista-gastos">
+                    <span>Destino</span><br>
+                    <span>Presupuesto inicial</span><br>
+                    <span>Gasto total</span><br>
+                    <span>Saldo restante</span><br>
+                    <span>Borrar</span>
+                </div>
+                <div id="lista-gastos"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
